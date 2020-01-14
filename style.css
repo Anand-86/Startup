@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; /*center is always center*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* without bootstrap h-100 code */
+/* .container {
+  height: 100%;
+} */
+
+h1 {
+  font-size: 3rem;
+  color: #c7c4cb;
+  text-align: center;
+}
+
+hr {
+  border-color: #f05f44;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase; /*Or you could use bootstrap class for this*/
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl {   /*Not a bootstrap4 class.*/
+  padding: 1rem 2rem;
+}
